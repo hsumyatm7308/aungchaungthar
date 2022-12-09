@@ -543,6 +543,26 @@ var getgen = genfun();
 
 // End Properties Section
 
+// Start Contact Sectionn 
+function tabbox(link,evn,btncolor){
+    var gettabcontents = document.getElementsByClassName('tabcontents');
+    var getbtntabs = document.getElementsByClassName('btn-tabs')
+    for(var i = 0; i < gettabcontents.length;i++){
+        gettabcontents[i].style.display = 'none';
+
+        getbtntabs[i].style.backgroundColor = '';
+    }
+    document.getElementById(link).style.display = 'block';
+    evn.style.backgroundColor = btncolor;
+
+    // console.log(evn)
+
+}
+
+// tabbox('phone');
+document.getElementById('autoclick').click();
+// End Contact Section 
+
 
 
 // End Javascript Area
@@ -552,3 +572,5 @@ var getgen = genfun();
 
 // 20AB
 // 3TM
+
+
