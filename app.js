@@ -564,6 +564,17 @@ document.getElementById('autoclick').click();
 // End Contact Section 
 
 
+// Start Chat Box 
+const getmychat = document.getElementById('mychat');
+
+function openchatbox(){
+    getmychat.style.display = 'block';
+}
+
+function closechatbox(){
+    getmychat.style.display = 'none';
+}
+// End Chat Box 
 
 // End Javascript Area
 

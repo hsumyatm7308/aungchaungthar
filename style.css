@@ -463,6 +463,8 @@ header{
   bottom:0;
 
   z-index:10;
+
+  display: none;
 }
 
 .check-container{
@@ -510,6 +512,34 @@ header{
 }
 
 
+.admin{
+  background-color: #aaa;
+
+}
+
+.user{
+  background-color: #ddd;
+}
+.containers{
+  position: relative;
+  padding: 15px 0;
+}
+
+.time-left{
+   color: #777;
+}
+
+.time-right{
+  color: #777;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+.containers::after{
+  clear: both;
+}
 /* End Chat Box */
 
 /* 15CB */
